@@ -1,6 +1,7 @@
-resolver: lts-18.13
+resolver: lts-19.18
 packages:
-- .
+  - .
 extra-deps:
-- elm-syntax-0.3.0.0
-- haskell-to-elm-0.3.0.0
+  - elm-syntax-0.3.2.0
+  - git: https://github.com/rickowens/haskell-to-elm.git
+    commit: 11578e115887428a9578153b31e97aad5816825a

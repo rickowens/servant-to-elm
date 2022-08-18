@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.4.
+-- This file has been generated from package.yaml by hpack version 0.34.7.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e2f48584ccf073f959dff499b5f01ecd10c1249e7a292fb998ff01adbc99baaf
+-- hash: 8142b4add7dbfb571ba849ce59ed490d07ab9f32e78f0cb6eff78b27dba2246e
 
 name:           servant-to-elm
 version:        0.4.3.0
@@ -46,10 +46,10 @@ library
       aeson >=1.4.0
     , base >=4.7 && <5
     , bound >=2.0.0
-    , elm-syntax ==0.3.0.*
-    , haskell-to-elm >=0.3.0 && <0.3.3
+    , elm-syntax >=0.3.0 && <0.4
+    , haskell-to-elm >=0.3.0 && <0.4
     , http-types >=0.12.0
-    , servant >=0.17 && <0.19
+    , servant >=0.17 && <0.20
     , servant-multipart >=0.11.0
     , text >=1.2.0
   default-language: Haskell2010
@@ -65,9 +65,9 @@ executable user-example
       aeson >=1.4.0
     , base >=4.7 && <5
     , bound >=2.0.0
-    , elm-syntax ==0.3.0.*
+    , elm-syntax >=0.3.0 && <0.4
     , generics-sop
-    , haskell-to-elm >=0.3.0 && <0.3.3
+    , haskell-to-elm >=0.3.0 && <0.4
     , http-types >=0.12.0
     , servant
     , servant-multipart >=0.11.0
@@ -93,15 +93,15 @@ test-suite servant-to-elm-test
     , bound >=2.0.0
     , bytestring >=0.10
     , directory >=1.3
-    , elm-syntax ==0.3.0.*
+    , elm-syntax >=0.3.0 && <0.4
     , filepath >=1.4
     , generics-sop >=0.4
-    , haskell-to-elm >=0.3.0 && <0.3.3
+    , haskell-to-elm >=0.3.0 && <0.4
     , hspec >=2.7
     , http-types >=0.12.0
     , prettyprinter >=1.2
     , process >=1.6
-    , servant >=0.17 && <0.19
+    , servant >=0.17 && <0.20
     , servant-multipart >=0.11.0
     , servant-to-elm
     , temporary >=1.3
